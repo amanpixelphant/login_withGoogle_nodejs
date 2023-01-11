@@ -1,0 +1,29 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fiwgyltsex0j5xr1lror.png)\r In this project we simply use the passport google Strategy.\r Passport is authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application. A comprehensive set of strategies support authentication using a username and password, Facebook, Twitter, and more. [reference](http://www.passportjs.org/)\r Before we get start  assume that you have a good knowledge of JavaScript and Nodejs.\r so without any further delay lets start 👍",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.8",
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^5.13.15",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanazm/login_with_google_nodejs.git"
+  }
+}
